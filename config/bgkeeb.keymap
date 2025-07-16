@@ -99,6 +99,10 @@
 &trans      &trans       &trans      &trans       &trans     &kp EQUAL    &kp N1       &kp N2     &kp N3    &kp N0
             &trans       &trans      &trans       &kp TAB    &kp BSPC     &kp SPACE    &kp DOT    &trans
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>,
+                <&inc_dec_kp C_NEXT K_PREV>;
         };
 
         sym_layer {
