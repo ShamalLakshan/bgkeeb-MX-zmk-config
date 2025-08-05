@@ -4,7 +4,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
 #define NAV     1
@@ -119,7 +118,7 @@
         num_layer {
             label = "Numbers";
             bindings = <
-&kp ESCAPE     &kp LS(PG_UP)    &kp LS(UP)        &kp LS(PG_DN)      &kp PG_UP         &kp HOME        &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9    &kp BACKSPACE
+&kp ESCAPE     &kp LS(CAPS)     &kp SCROLLLOCK    &kp KP_NUMLOCK     &kp PG_UP         &kp HOME        &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9    &kp BACKSPACE
 &kp LS(TAB)    &kp LS(K_CUT)    &kp LS(K_COPY)    &kp LS(K_PASTE)    &kp LS(PG_DN)     &kp END         &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6    &kp ENTER
 &to 4          &kp INSERT       &kp K_UNDO        &kp K_REDO         &kp DELETE        &kp NUMBER_0    &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3    &to 2
                &trans           &kp RCTRL         &to 0              &kp LEFT_SHIFT    &kp SPACE       &to 1           &kp LEFT_ALT    &trans
