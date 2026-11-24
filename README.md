@@ -1,12 +1,9 @@
-# bgkeeb-MX-zmk-config
-My ZMK config for MX wireless version of BGKeeb.
+# BGKeeB MX ZMK Config
 
-## Keymap
-Keymap information can be found here: https://github.com/ShamalLakshan/34-QWERTY-Tap-Switch-Keymap
+ZMK firmware configuration for the wireless MX version of the BGKeeB split keyboard (nice!nano v2).
 
-## Features
-- [x] ZMK Studio Support
-- [x] Double Battery Reporting via ZMKSplit Tool
-- [x] Combos
-- [x] Mouse Movement
-- [ ] Proper Dual Encoder
+### Highlights
+- **Dual Encoders:** Independent rotary controls on both halves.
+- **Battery Reporting:** Dual battery telemetry for central and peripheral sides.
+- **ZMK Studio:** Live keymap editing via [zmk.studio](https://zmk.studio).
+- **Layout:** Custom 36-key layout with combos, navigation shortcuts, and mouse keys.
