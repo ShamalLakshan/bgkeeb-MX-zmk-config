@@ -37,14 +37,14 @@
             key-positions = <0 1>; // Q + W
             timeout-ms = <25>;
             require-prior-idle-ms = <100>;
-            layers = <DEFAULT CODE NAV FUNC>;
+            layers = <DEFAULT CODE>;
         };
 
         combo_backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <12 13>; // D + F
             timeout-ms = <25>;
-            layers = <DEFAULT CODE NAV FUNC>;
+            layers = <DEFAULT CODE>;
         };
 
         combo_enter {
@@ -52,15 +52,15 @@
             key-positions = <16 17>; // J + K
             timeout-ms = <25>;
             require-prior-idle-ms = <100>;
-            layers = <DEFAULT CODE NAV FUNC>;
+            layers = <DEFAULT CODE>;
         };
 
         combo_home {
             bindings = <&kp HOME>;
-            key-positions = <10 11>; // A + S
+            key-positions = <5 6>; // Y + U
             timeout-ms = <25>;
             require-prior-idle-ms = <100>;
-            layers = <DEFAULT CODE NAV FUNC>;
+            layers = <DEFAULT CODE>;
         };
 
         combo_end {
@@ -68,21 +68,22 @@
             key-positions = <18 19>; // L + ;
             timeout-ms = <25>;
             require-prior-idle-ms = <100>;
-            layers = <DEFAULT CODE NAV FUNC>;
+            layers = <DEFAULT CODE>;
         };
 
         combo_alt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <20 21>; // Z + X
             timeout-ms = <25>;
-            layers = <DEFAULT CODE NAV FUNC>;
+            slow-release;
+            layers = <DEFAULT CODE>;
         };
 
         combo_ctrl_backspace {
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <22 23>; // C + V
             timeout-ms = <25>;
-            layers = <DEFAULT CODE NAV FUNC>;
+            layers = <DEFAULT CODE>;
         };
 
         combo_quote {
@@ -90,7 +91,7 @@
             key-positions = <27 28>; // , + .
             timeout-ms = <25>;
             require-prior-idle-ms = <100>;
-            layers = <DEFAULT CODE NAV FUNC>;
+            layers = <DEFAULT CODE>;
         };
 
         // --- Non-Rolling Utility Combos ---
@@ -113,7 +114,10 @@
 
         LeftControl {
             bindings = <&kp LCTRL>;
-            key-positions = <28 29>;
+            key-positions = <28 29>; // . + /
+            timeout-ms = <25>;
+            slow-release;
+            layers = <DEFAULT CODE>;
         };
     };
 
